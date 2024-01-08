@@ -1,24 +1,38 @@
-# BALANCE Rosen Bridge Web App
-BALANCE Analytics presents an open source alternative Web App UI for Ergo's Rosen Bridge.
+# create-svelte
 
-[Rosen Bridge](https://rosen.tech/) is an [Ergo Platform](https://ergoplatform.org/en/) Centric open-source protocol for cross-chain asset transfers. The main benefits are:
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-- Incentivized Auditing
-- Ongoing Monitoring
-- Transparent Reporting
+## Creating a project
 
-Currently, the bridge to Cardano enables Ergo<>Cardano asset transfers for **interoperability**, a key blockchain foundational pilar.
+If you're seeing this, you've probably already done this step. Congrats!
 
-BALNCE's Mission is to provide the Cardano-Ergo Community with accurate, insightful decentralized network data analysis to make informed decisions and maximize success. 
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-We strive to provide exceptional curated on-chain analysis and data visualization, and become the defacto gold standard for years to come.
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-Any questions of feedback, DM on Twitter [@BalanceData22](https://twitter.com/BalanceData22) or better yet, come chat in our [Matrix.org Ergo Channel](https://matrix.to/#/#ergo:forum.balanceanalytics.io)
+## Developing
 
-## Support
-Support is always welcomed by delegating to BALNC Pool in the Cardano Network!
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-BALNC Pool is a self-hosted, baremetal rack server hosting the blockchain database and supporting decentralization.
+```bash
+npm run dev
 
-- [BALNC Cexplorer](https://cexplorer.io/pool/pool15s7w4spg5ee7n7rprhs0dq78plw2mhjkpu5v97uvl27gz2way7z)
-- [BALNC Pool.pm](https://pool.pm/a43ceac028a673e9f8611de0f683c70fdcadde560f28c2fb8cfabc81)
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
