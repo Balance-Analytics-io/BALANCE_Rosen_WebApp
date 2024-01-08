@@ -24,5 +24,7 @@ BALNC Pool is a self-hosted, baremetal rack server hosting the blockchain databa
 - [BALNC Pool.pm](https://pool.pm/a43ceac028a673e9f8611de0f683c70fdcadde560f28c2fb8cfabc81)%
 
 ## How To Run Locally
-1. Clone repo
-2. npm install
+1. `git clone <repo>`
+2. `cd <repo>`
+3. `npm install`
+4. `npm run dev`
