@@ -1,6 +1,8 @@
 # BALANCE Rosen Bridge Web App
 BALANCE Analytics presents an open source alternative Web App UI for Ergo's Rosen Bridge.
 
+⚠️⚠️⚠️ IN WORK: This is a build-in-public project, it is not yet complete. For feature requests and ideas, make an [Issue](https://github.com/Balance-Analytics-io/BALANCE_Rosen_WebApp/issues)⚠️⚠️⚠️
+
 [Rosen Bridge](https://rosen.tech/) is an [Ergo Platform](https://ergoplatform.org/en/) Centric open-source protocol for cross-chain asset transfers. The main benefits are:
 
 - Incentivized Auditing
